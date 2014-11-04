@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+#gradient{
+background: #fee36c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZTM2YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhZTZjYmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNzIwMDhlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  #fee36c 0%, #ae6cbd 100%, #72008e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fee36c), color-stop(100%,#ae6cbd), color-stop(100%,#72008e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fee36c 0%,#ae6cbd 100%,#72008e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fee36c 0%,#ae6cbd 100%,#72008e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fee36c 0%,#ae6cbd 100%,#72008e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fee36c 0%,#ae6cbd 100%,#72008e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee36c', endColorstr='#72008e',GradientType=0 ); /* IE6-8 */
+
+}
+#button_about { 
+	margin: 0; 
+	padding: 2px; 
+	
+}
+#button_about a { 
+	display: block; 
+	background: url(../img/about_button_off.png) no-repeat; width: 140px; height: 0px !important; 
+	height /**/: 41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden; 
+}
+#button_about a:hover { 
+	background: url(../img/about_button_on.png) no-repeat; width: 140px; height: 0px !important; 
+	height /**/: 41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden;
+}
+
+#button_char { 
+	margin: 0; 
+	padding: 2px; 
+}
+#button_char a { 
+	display: block; 
+	background: url(../img/char_button_off.png) no-repeat; width: 190px; height: 0px !important; 
+	height /**/:41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden; 
+}
+#button_char a:hover { 
+	background: url(../img/char_button_on.png) no-repeat; width: 190px; height: 0px !important; 
+	height /**/:41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden;
+}
+
+#button_down { 
+	margin: 0; 
+	padding: 2px; 
+	padding-right: 20px;
+	
+}
+#button_down a { 
+	display: block; 
+	background: url(../img/dl_button_off.png) no-repeat; width: 180px; height: 0px !important; 
+	height /**/:41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden; 
+}
+#button_down a:hover { 
+	background: url(../img/dl_button_on.png) no-repeat; width: 180px; height: 0px !important; 
+	height /**/: 41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden;
+}
+#button_play { 
+	margin: 0; 
+	padding: 2px; 
+	
+}
+#button_play a { 
+	display: block; 
+	background: url(../img/play_button_off.png) no-repeat; width: 211px; height: 0px !important; 
+	height /**/:41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden; 
+}
+#button_play a:hover { 
+	background: url(../img/play_button_on.png) no-repeat; width: 211px; height: 0px !important; 
+	height /**/: 41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden;
+}
+
+div{
+	margin-right:25px;
+}
+span{
+	margin-left: 185px;
+}
+
+#button_dis { 
+	margin: 0; 
+	padding: 2px; 
+	
+}
+#button_dis a { 
+	display: block; 
+	background: url(../img/dis_button_off.png) no-repeat; width: 180px; height: 0px !important; 
+	height /**/:41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden; 
+}
+#button_dis a:hover { 
+	background: url(../img/dis_button_on.png) no-repeat; width: 180px; height: 0px !important; 
+	height /**/: 41px; 
+	padding: 41px 0 0 0; 
+	overflow: hidden;
+}
+
